@@ -1,14 +1,23 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner (System.in);
-        int x;
+        String x;
+        int y;
+        double z;
         
-        x = sc.nextInt();
+        x = sc.next();
+        y = sc.nextInt();
+        z = sc.nextDouble();
 
-        System.out.println("Voce digitou " + x);
+        System.out.println("Dados Digitados: ");
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
 
         sc.close();
     }
