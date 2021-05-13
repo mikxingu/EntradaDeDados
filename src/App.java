@@ -4,9 +4,9 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner (System.in);
-        String x;
+        int x;
         
-        x = sc.next();
+        x = sc.nextInt();
 
         System.out.println("Voce digitou " + x);
 
